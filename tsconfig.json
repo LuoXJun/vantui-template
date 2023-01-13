@@ -15,7 +15,7 @@
     "strict": true,
     "jsx": "preserve",
     "allowJs": true,
-    "checkJs": true,
+    "checkJs": false,
     // 生成响应的d.ts文件
     "declaration": false,
     // 存在隐式any时报错

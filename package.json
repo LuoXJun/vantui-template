@@ -2,13 +2,13 @@
   "name": "base_template",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "eslint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
-    "format": "prettier --write .",
+    "lint": "vue-tsc --noEmit --skipLibCheck",
+    "prettier": "prettier --write .",
     "prepare": "husky install",
     "git": "cz"
   },
@@ -42,5 +42,10 @@
     "unplugin-vue-components": "^0.22.8",
     "vite": "^3.1.0",
     "vue-tsc": "^0.40.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
