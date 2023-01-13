@@ -1,0 +1,52 @@
+// 基础色
+$baseColor: #1890ff;
+
+.l-num {
+  color: $baseColor;
+}
+
+.l-flex {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.l-center {
+  text-align: center;
+}
+
+.l-flex1 {
+  flex: 1;
+}
+
+.l-title {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.l-mr10 {
+  margin-right: 10px;
+}
+
+.l-mt20 {
+  margin-top: 20px;
+}
+
+.l-pl20 {
+  padding-left: 20px;
+}
+
+.l-mtb20 {
+  margin: 20px 0;
+}
+
+.l-ptb20 {
+  padding: 20px 0;
+}
+.l-plr20 {
+  padding: 0 20px;
+}
+
+.l-mlr20 {
+  margin: 0 20px;
+}
